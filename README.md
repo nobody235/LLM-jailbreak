@@ -3,10 +3,7 @@
 - Our approach begins by constructing a multimodal large language model (MLLM) through the incorporation of a visual module into the target LLM. Subsequently, we conduct an efficient MLLM-jailbreak to
 generate jailbreaking embeddings embJS. Finally, we convert the embJS into text space to facilitate the jailbreaking of the target LLM.
 - Compared to direct LLM-jailbreaking, our approach is more efficient, as MLLMs are more vulnerable to jailbreaking than pure LLM.
-<p align="center">
-  <img src="figs/fig1.png" width="500">
-</p>
-
+- 
 ## Dataset
 We group all the harmful behaviors within AdvBench into 9 distinct semantic categories, specifically, “Violence”, “Financial crimes”, “Property Crimes”, “Drug Crimes”, “Weapons Crimes”, “Cyber Crimes”, “Hate”,  “Suicide” and “Fake infomation”. At the same time, given that our method involves jailbreaking multimodal large language models, we provide up to thirty images which were retrieved from the Internet using the Google search engine for each class as initialization of the images during the jailbreak process.
 
