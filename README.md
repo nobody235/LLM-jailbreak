@@ -1,6 +1,6 @@
 # Efficient LLM-Jailbreaking by Introducing Visual Modality
 
-## Warning
+## 🔴🔴🔴Warning🔴🔴🔴
 <span style="color:red">This repository contains research on LLM jailbreaking techniques intended solely for research and defensive purposes. Our work aims to expose security vulnerabilities in existing models to strengthen safety measures in future LLM development. Do not use these techniques to generate harmful content or bypass safety measures in production systems, as this may violate terms of service and laws. By using this repository, you agree to use the code responsibly.</span>
 
 ## Overview
