@@ -1,4 +1,8 @@
 # Efficient LLM-Jailbreaking by Introducing Visual Modality
+
+## Warning
+This repository contains research on LLM jailbreaking techniques intended solely for research and defensive purposes. Our work aims to expose security vulnerabilities in existing models to strengthen safety measures in future LLM development. Do not use these techniques to generate harmful content or bypass safety measures in production systems, as this may violate terms of service and laws. By using this repository, you agree to use the code responsibly.
+
 ## Overview
 - Our approach begins by constructing a multimodal large language model (MLLM) through the incorporation of a visual module into the target LLM. Subsequently, we conduct an efficient MLLM-jailbreak to
 generate jailbreaking embeddings embJS. Finally, we convert the embJS into text space to facilitate the jailbreaking of the target LLM.
