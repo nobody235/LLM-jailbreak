@@ -23,7 +23,7 @@ Git clone our repository, creating a python environment and activate it via the 
 git clone https://github.com/nobody235/LLM-jailbreak.git
 cd LLM-jailbreak-main
 conda env create -f environment.yml
-conda activate LLM-jb
+conda activate MLLM
 ```
 
 **2. Prepare the pretrained LLM weights**
