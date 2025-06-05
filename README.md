@@ -28,20 +28,11 @@ conda activate MLLM
 
 **2. Prepare the pretrained LLM weights**
 
-Our experiments were mainly performed on LLaMA-2. Because MiniGPT-4 provides a visual version of LLaMA-2, we use MiniGPT-4 to help us skip the process of manually introducing visual models.
+For llama2, you need to follow the instructions in the minigpt4 repository to set up the model.
 
-The model weights and tokenizer of LLaMA-2 can be downloaded at [meta-llama/Llama-2-7b-chat-hf](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf/tree/main) 
+For InternLM, you only need to download InternVL2_5-Pretrain-Models-8B.
 
-Then, set the LLM path 
-  [here](minigpt4/configs/models/minigpt4_llama2.yaml#L15) at Line 15.
-
-**3. Prepare the pretrained model checkpoints**
-
-Download the pretrained model checkpoints of MiniGPT-4 (LLaMA-2 Chat 7B) at  [Download](https://drive.google.com/file/d/11nAPjEok8eAGGEG1N2vXo3kBLCg0WgUk/view?usp=sharing).
-
-Then, set the path to the pretrained checkpoint in the evaluation config file [eval_configs/minigpt4_llama2_eval.yaml](eval_configs/minigpt4_llama2_eval.yaml#L10).   
-
-**4. Prepare LLama-Guard-2**
+**3. Prepare LLama-Guard-2**
 
 Download the LLama-Guard-2 at  [Download](https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B).  
 
