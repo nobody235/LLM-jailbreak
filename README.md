@@ -20,8 +20,8 @@ We group all the harmful behaviors within AdvBench into 9 distinct semantic cate
 Git clone our repository, creating a python environment and activate it via the following command
 
 ```bash
-git clone https://github.com/abc03570128/LLM-jb.git
-cd LLM-jb
+git clone https://github.com/nobody235/LLM-jailbreak.git
+cd LLM-jailbreak-main
 conda env create -f environment.yml
 conda activate LLM-jb
 ```
