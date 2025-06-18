@@ -36,8 +36,7 @@ For InternLM, you only need to download InternVL2_5-Pretrain-Models-8B.
 
 Download the LLama-Guard-2 at  [Download](https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B).  
 
-Then set the LLama-Guard2 path 
-  [here](minigpt4/configs/models/minigpt4_llama2.yaml#L15) at Line 15.
+Then set the LLama-Guard2 path in jailbreak_internlm2.5.py and jailbreak_llama2.py.
 
 
 If you want to jailbreak other large language models, you can use the suffix generated on LLaMA-2 to jailbreak in a black box manner, or use the MiniGPT-4 method to introduce vision modules to large language models and jailbreak them.
